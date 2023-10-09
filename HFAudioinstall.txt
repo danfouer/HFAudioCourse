@@ -1,0 +1,17 @@
+conda env remove --name ColabEnv
+conda create --name ColabEnv python=3.10.12 -y
+conda activate ColabEnv
+cd Videos/HFAudio
+pip3 install --upgrade pip
+pip3 install jupyter
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install --upgrade --quiet pip
+pip install --quiet datasets
+pip install --quiet git+https://github.com/huggingface/transformers.git
+pip install --upgrade --quiet accelerate
+pip install --quiet gradio
+pip install --quiet soundfile==0.12.1
+pip install --quiet soundfile librosa==0.10.1
+pip install s--quietentencepiece
+jupyter notebook
+
