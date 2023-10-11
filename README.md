@@ -11,7 +11,7 @@ https://s0tiijs5zp.feishu.cn/docx/WE4Jd12DaonhAUx48BScs1wBn5d?from=from_copylink
 
     第 2 单元：了解音频应用程序并学习如何使用 🤗 Transformers 管道执行不同的任务，例如音频分类和语音识别。
 
-    第 3 单元：探索音频转换器架构，了解它们有何不同以及它们最适合执行哪些任务。
+    第 3 单元：探索音频Transformer架构，了解它们有何不同以及它们最适合执行哪些任务。
 
     第 4 单元：学习如何构建自己的音乐流派分类器。
 
