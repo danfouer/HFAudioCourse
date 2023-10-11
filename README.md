@@ -36,10 +36,10 @@ https://s0tiijs5zp.feishu.cn/docx/WE4Jd12DaonhAUx48BScs1wBn5d?from=from_copylink
 
 后面缺啥就!pip install啥
 
+```
 ## 本地安装
 （本地有GPU,并以安装好CUDA、cudnn,它们的安装参考 https://blog.csdn.net/takedachia/article/details/130375718）
 
-# conda env remove --name HFAudio #玩崩了就解除这一句注释
 conda create --name HFAudio python=3.10.12 -y
 conda activate HFAudio
 cd Videos/HFAUDIOCOURSE #进入课程文件夹
@@ -56,3 +56,4 @@ pip install --quiet soundfile librosa==0.10.1
 pip install s--quiet sentencepiece
 jupyter notebook
 后面缺啥就pip install啥
+conda env remove --name HFAudio #玩崩了就重来
