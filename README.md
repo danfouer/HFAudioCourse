@@ -1,8 +1,8 @@
 # Hugging Face Audio course 中文交互式教程
 ## 前言
-我用二十天时间，拿到Hugging Face Audio course (您可以到https://huggingface.co/learn/audio-course/chapter0/introduction 注册该课程）的卓越证书，并将课程转换为中文交互式教程，希望能够帮助到更多的人。
-同时我翻译了Transformers in Speech Processing: A Survey 一文
-https://s0tiijs5zp.feishu.cn/docx/WE4Jd12DaonhAUx48BScs1wBn5d?from=from_copylink，可供快速的了解此领域的概貌。欢迎大家添加我的微信号：ESGGTP 与我的平行人交流。
+我用了二十天时间，拿到[Hugging Face Audio course](https://huggingface.co/learn/audio-course/chapter0/introduction)的卓越证书，并将该课程转换为中文交互式教程，希望能够帮助到更多的人。
+同时我翻译了[Transformers in Speech Processing: A Survey 一文](https://s0tiijs5zp.feishu.cn/docx/WE4Jd12DaonhAUx48BScs1wBn5d?from=from_copylink) 可供初学者快速的了解此领域的概貌。
+欢迎大家添加我的微信号：ESGGTP 与我的平行人交流。
 
 ## 课程结构
 该课程分为几个单元，深入涵盖各种主题：
@@ -24,6 +24,8 @@ https://s0tiijs5zp.feishu.cn/docx/WE4Jd12DaonhAUx48BScs1wBn5d?from=from_copylink
 每个单元都包含一个理论部分，您将深入了解基本概念和技术。在整个课程中，我们提供测验来帮助您测试您的知识并加强您的学习。有些章节还包括实践练习，您将有机会应用所学知识。
 
 在课程结束时，您将在使用音频数据转换器方面打下坚实的基础，并有能力将这些技术应用于广泛的音频相关任务。
+
+作为[Hugging Face Audio course](https://huggingface.co/learn/audio-course/chapter0/introduction) 的结课大作业[外国话转中文话](https://huggingface.co/spaces/zongxiao/speech-to-speech),我调用了三个自然语言处理的大模型，一个用于将外国话翻译成中文，一个用于判断说的哪个国家的话，一个用于将中文转成语音输出。演示同时支持语音上传和麦克风输入，转换速度比较慢因为租不起GPU的服务器（支出增加20倍），建议您通过已经缓存Examples体验效果。
 
 ## Google Colab安装(推荐)
 在Unit1-Unit7*.ipynb文件的第一行代码中，添加如下代码，即可在Google Colab中运行。
@@ -57,3 +59,4 @@ pip install --quiet sentencepiece
 jupyter notebook
 后面缺啥就pip install啥
 conda env remove --name HFAudio #玩崩了就重来
+有任何问题欢迎大家添加我的微信号：ESGGTP 与我的平行人交流。
