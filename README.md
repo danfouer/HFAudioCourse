@@ -25,7 +25,7 @@
 
 在课程结束时，您将在使用音频数据转换器方面打下坚实的基础，并有能力将这些技术应用于广泛的音频相关任务。
 
-作为[Hugging Face Audio course](https://huggingface.co/learn/audio-course/chapter0/introduction) 的结课大作业[外国话转中文话](https://huggingface.co/spaces/zongxiao/speech-to-speech),我调用了三个自然语言处理的大模型，一个用于将外国话翻译成中文，一个用于判断说的哪个国家的话，一个用于将中文转成语音输出。演示同时支持语音上传和麦克风输入，转换速度比较慢因为租不起GPU的服务器（支出增加20倍），建议您通过已经缓存Examples体验效果。
+作为[Hugging Face Audio course](https://huggingface.co/learn/audio-course/chapter0/introduction) 的结课大作业[外国话转中文话](https://huggingface.co/spaces/zongxiao/speech-to-speech),我调用了三个自然语言处理的大模型，一个用于将外国话翻译成中文，一个用于判断说的哪个国家的话(运行太慢拿掉了了)，一个用于将中文转成语音输出。演示同时支持语音上传和麦克风输入，转换速度比较慢因为租不起GPU的服务器（支出增加20倍），建议您通过已经缓存Examples体验效果。
 
 ## Google Colab安装(推荐)
 在Unit1-Unit7*.ipynb文件的第一行代码中，添加如下代码，即可在Google Colab中运行。
