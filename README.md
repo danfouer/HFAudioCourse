@@ -53,7 +53,7 @@ pip install --upgrade --quiet accelerate
 pip install --quiet gradio
 pip install --quiet soundfile==0.12.1
 pip install --quiet soundfile librosa==0.10.1
-pip install s--quiet sentencepiece
+pip install --quiet sentencepiece
 jupyter notebook
 后面缺啥就pip install啥
 conda env remove --name HFAudio #玩崩了就重来
