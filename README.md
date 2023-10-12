@@ -2,7 +2,7 @@
 ## 前言
 我用二十天时间，拿到Hugging Face Audio course (您可以到https://huggingface.co/learn/audio-course/chapter0/introduction 注册该课程）的卓越证书，并将课程转换为中文交互式教程，希望能够帮助到更多的人。
 同时我翻译了Transformers in Speech Processing: A Survey 一文
-https://s0tiijs5zp.feishu.cn/docx/WE4Jd12DaonhAUx48BScs1wBn5d?from=from_copylink，可供快速的了解此领域的概貌。
+https://s0tiijs5zp.feishu.cn/docx/WE4Jd12DaonhAUx48BScs1wBn5d?from=from_copylink，可供快速的了解此领域的概貌。欢迎大家添加我的微信号：ESGGTP 与我的平行人交流。
 
 ## 课程结构
 该课程分为几个单元，深入涵盖各种主题：
